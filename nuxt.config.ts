@@ -11,6 +11,16 @@ export default defineNuxtConfig({
     },
 
     app: {
-        pageTransition: { name: 'page', mode: 'out-in' }
+        head: {
+            htmlAttrs: {
+                lang: 'de'
+            },
+            charset: 'utf-8',
+            viewport: 'width=device-width, initial-scale=1',
+            title: 'StrilonNET',
+            meta: [
+                { name: 'description', content: "Die Social-Media-Kanäle von StrilonNET" }
+            ],
+        }
     },
 })
