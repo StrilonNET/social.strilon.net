@@ -1,6 +1,6 @@
 <template>
     <p class="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-        Du findest uns auf den folgenden Social-Media-Platformen:
+        Du findest uns auf den folgenden Social-Media-Plattformen:
     </p>
 
     <div class="mt-12 text-center">
