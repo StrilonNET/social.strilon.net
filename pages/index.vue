@@ -1,7 +1,7 @@
 <template>
-    <p class="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
+    <h2 class="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
         Du findest uns auf den folgenden Social-Media-Plattformen:
-    </p>
+    </h2>
 
     <div class="mt-12 text-center">
         <Card>
