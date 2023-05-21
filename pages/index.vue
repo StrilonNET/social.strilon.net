@@ -3,75 +3,74 @@
         Du findest uns auf den folgenden Social-Media-Plattformen:
     </h2>
 
-    <div class="mt-12 text-center">
-        <Card>
+    <div class="grid gap-4 grid-cols-1 md:grid-cols-2 mt-8 text-center">
+        <Card link="https://discord.com/invite/BVyDCdNRHj">
             <template v-slot:logo>
                 <IconsDiscord />
             </template>
+
             <template v-slot:name>
                 Discord
             </template>
+
             <template v-slot:tag>
                 StrilonNET
             </template>
-            <template v-slot:button>
-                <Button link="https://discord.com/invite/BVyDCdNRHj" text="Server beitreten"></Button>
-            </template>
         </Card>
-        <Card>
+
+        <Card  link="https://www.instagram.com/anglergamesde/">
             <template v-slot:logo>
                 <IconsInstagram />
             </template>
+
             <template v-slot:name>
                 Instagram
             </template>
+
             <template v-slot:tag>
                 anglergamesde
             </template>
-            <template v-slot:button>
-                <Button link="https://www.instagram.com/anglergamesde/" text="Beiträge ansehen"></Button>
-            </template>
         </Card>
-        <Card>
+
+        <Card link="https://www.youtube.com/channel/UCMl1WMoelB4w0_IxFOthSiA">
             <template v-slot:logo>
                 <IconsYouTube />
             </template>
+
             <template v-slot:name>
                 YouTube
             </template>
+
             <template v-slot:tag>
                 Anglergamesde
             </template>
-            <template v-slot:button>
-                <Button link="https://www.youtube.com/channel/UCMl1WMoelB4w0_IxFOthSiA" text="Videos ansehen"></Button>
-            </template>
         </Card>
-        <Card>
+
+        <Card link="https://twitter.com/anglergamesde">
             <template v-slot:logo>
                 <IconsTwitter />
             </template>
+
             <template v-slot:name>
                 Twitter
             </template>
+
             <template v-slot:tag>
                 AnglergamesDE
             </template>
-            <template v-slot:button>
-                <Button link="https://twitter.com/anglergamesde" text="Tweets ansehen"></Button>
-            </template>
         </Card>
-        <Card>
+
+        <Card link="https://www.tiktok.com/@anglergames.de">
             <template v-slot:logo>
                 <IconsTikTok />
             </template>
+
             <template v-slot:name>
                 TikTok
             </template>
+
             <template v-slot:tag>
                 anglergamesde
-            </template>
-            <template v-slot:button>
-                <Button link="https://www.tiktok.com/@anglergames.de" text="Beiträge ansehen"></Button>
             </template>
         </Card>
     </div>

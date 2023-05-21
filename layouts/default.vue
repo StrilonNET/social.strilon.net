@@ -8,7 +8,7 @@
 
                 <slot></slot>
 
-                <h2 class="mb-4 text-md font-light dark:font-normal tracking-tight text-gray-800 dark:text-gray-400">
+                <h2 class="mt-8 text-md font-light dark:font-normal tracking-tight text-gray-800 dark:text-gray-400">
                     &copy; 2023 StrilonNET
                 </h2>
             </div>
